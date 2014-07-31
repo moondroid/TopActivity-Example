@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.moondroid.topactivity_example.TopActivity" >
+
+
+    <item android:id="@+id/action_activity1"
+        android:title="@string/activity1"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_activity2"
+        android:title="@string/activity2"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_activity3"
+        android:title="@string/activity3"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
